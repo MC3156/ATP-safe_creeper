@@ -33,12 +33,12 @@ execute if score #sc_t2 safe_creeper matches 8125..8749 run function safe_creepe
 execute if score #sc_t2 safe_creeper matches 8750..9374 run function safe_creeper:main/rfw/magenta
 execute if score #sc_t2 safe_creeper matches 9375..9999 run function safe_creeper:main/rfw/pink
 
-execute if score #sc_t safe_creeper matches 5..9 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.components."minecraft:fireworks".explosions[0].has_trail set value 1b
-execute if score #sc_t3 safe_creeper matches 5..9 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.components."minecraft:fireworks".explosions[0].has_twinkle set value 1b
-execute if score #sc_t4 safe_creeper matches 2..3 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.components."minecraft:fireworks".explosions[0].shape set value "large_ball"
-execute if score #sc_t4 safe_creeper matches 4..5 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.components."minecraft:fireworks".explosions[0].shape set value "creeper"
-execute if score #sc_t4 safe_creeper matches 6..7 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.components."minecraft:fireworks".explosions[0].shape set value "burst"
-execute if score #sc_t4 safe_creeper matches 8..9 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.components."minecraft:fireworks".explosions[0].shape set value "star"
+execute if score #sc_t safe_creeper matches 5..9 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.tag.Fireworks.Explosions[0].Flicker set value 1b
+execute if score #sc_t3 safe_creeper matches 5..9 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.tag.Fireworks.Explosions[0].Trail set value 1b
+execute if score #sc_t4 safe_creeper matches 2..3 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.tag.Fireworks.Explosions[0].Type set value 1b
+execute if score #sc_t4 safe_creeper matches 4..5 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.tag.Fireworks.Explosions[0].Type set value 2b
+execute if score #sc_t4 safe_creeper matches 6..7 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.tag.Fireworks.Explosions[0].Type set value 3b
+execute if score #sc_t4 safe_creeper matches 8..9 as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run data modify entity @s FireworksItem.tag.Fireworks.Explosions[0].Type set value 4b
 
 scoreboard players set #22 safe_creeper 1
 execute as @e[type=minecraft:firework_rocket,tag=sc_fw_temp] run tag @s remove sc_fw_temp
