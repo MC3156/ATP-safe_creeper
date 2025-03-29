@@ -1,6 +1,21 @@
 {
    "pack":{
       "pack_format":48,
-      "description":[{"text":"ATP-safe_creeper","color":"gold"},{"text":"Dev version","color":"light_purple"}]
+      "description":[{"text":"ATP-safe_creeper","color":"gold"},{"text":"Dev version","color":"light_purple"}],
+      "supported_formats": {
+         "max_inclusive": 68,
+         "min_inclusive": 48
+      }
+   },
+   "overlays": {
+      "entries": [
+         {
+            "directory": "1.21.5+",
+            "formats": {
+               "min_inclusive": 69,
+               "max_inclusive": 71
+            }
+         }
+      ]
    }
 }

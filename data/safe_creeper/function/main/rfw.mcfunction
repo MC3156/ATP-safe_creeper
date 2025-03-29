@@ -1,6 +1,5 @@
 ##随机烟花(无宏行)
 
-# summon firework_rocket ~ ~ ~ {FireworksItem:{id:"firework_rocket",count:1,components:{fireworks:{explosions:[{shape:"star",colors:[I;14188952],has_trail:true,has_twinkle:true}]}}},LifeTime:0}
 execute store result score #sc_t safe_creeper run data get entity @s UUID[0] 1
 scoreboard players operation #sc_t2 safe_creeper = #sc_t safe_creeper
 scoreboard players operation #sc_t3 safe_creeper = #sc_t safe_creeper
