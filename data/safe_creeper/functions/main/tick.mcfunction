@@ -18,8 +18,8 @@ execute if score #22 safe_creeper matches 0.. run stopsound @a * minecraft:entit
 #execute if score #22 safe_creeper matches 0.. run stopsound @a * minecraft:entity.generic.explode
 execute if score #22 safe_creeper matches 0 run scoreboard players reset #22 safe_creeper
 
-execute as @e[type=area_effect_cloud] if data entity @s Effects[{Id:27,Amplifier:1b}] at @s run function safe_creeper:main/aec_1
-execute as @e[type=area_effect_cloud] if data entity @s Effects[{Id:27,Amplifier:2b}] at @s run function safe_creeper:main/aec_2
+execute as @e[type=area_effect_cloud] if data entity @s Effects[{Id:27b,Amplifier:1b}] at @s run function safe_creeper:main/aec_1
+execute as @e[type=area_effect_cloud] if data entity @s Effects[{Id:27b,Amplifier:2b}] at @s run function safe_creeper:main/aec_2
 
 execute if score #22 safe_creeper matches 0.. run stopsound @a * minecraft:entity.firework_rocket.launch
 #execute if score #22 safe_creeper matches 0.. run stopsound @a * minecraft:entity.generic.explode
