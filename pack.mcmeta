@@ -1,6 +1,6 @@
 {
    "pack": {
       "pack_format": 26,
-      "description": [{"text":"ATP-safe_creeper","color":"gold"},{"text":"-1.20.4","color":"light_purple"}]
+      "description": [{"text":"ATP-safe_creeper","color":"gold"},{"text":"1.20.2-1.20.4","color":"light_purple"}]
    }
 }
