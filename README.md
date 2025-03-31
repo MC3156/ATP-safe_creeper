@@ -5,7 +5,7 @@
 *(可修改语言：**简体中文**或**英语**)*
 *(Languages adjustable: **Chinese** or **English**)*
 
-链接：[Github](https://github.com/MC3156 "访问Github") [MCMOD](https://www.mcmod.cn/author/31605.html "访问mcmod百科") [CurseForge](https://www.curseforge.com/minecraft/data-packs/atp-safe-creeper) [Modrinth](https://modrinth.com/user/Dreamy_Blaze "访问Modrinth")
+链接：[Github](https://github.com/MC3156 "访问Github") [MCMOD](https://www.mcmod.cn/author/31605.html "访问mcmod百科") [CurseForge](https://www.curseforge.com/minecraft/data-packs/atp-safe-creeper "CurseForge") [Modrinth](https://modrinth.com/user/Dreamy_Blaze "Modrinth")
 
 ## 使用说明(Usage)
 
